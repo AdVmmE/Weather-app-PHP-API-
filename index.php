@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    adam
+<div class="container">
     <form method="POST">
         <label for="city">Chooes a city</label>
         <select name="city" id="city">
@@ -14,7 +15,7 @@
         <option value="	BeniMellal">Beni Mellal</option>
         </select>
         <button type="submit" name="getWeather">Gt temperature</button>
-    </form>
+    </form><br>
 
     <div id="result">
         <?php
@@ -43,5 +44,6 @@
             }
         ?>
     </div>
+</div>
 </body>
 </html>
