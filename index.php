@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    adam
     <form method="POST">
         <label for="city">Chooes a city</label>
         <select name="city" id="city">
@@ -36,6 +37,7 @@
                             $description = $data['weather'][0]['description'];
 
                             echo "<p> the temp in $city is {$temp} and its {$description}.</p>  ";
+
                         }
                     }
             }
