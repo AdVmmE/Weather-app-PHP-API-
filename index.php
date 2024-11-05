@@ -12,7 +12,8 @@
         <label for="city">Chooes a city</label>
         <select name="city" id="city">
         <option value="Casablanca">Casablanca</option>
-        <option value="	BeniMellal">Beni Mellal</option>
+        <option value="tangier">tange</option>
+        
         </select>
         <button type="submit" name="getWeather">Gt temperature</button>
     </form><br>
